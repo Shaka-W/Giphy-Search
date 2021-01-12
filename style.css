@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 33%;
+}
+
+.main-title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+form {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#search {
+  width: 300px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.btn-submit {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+}
